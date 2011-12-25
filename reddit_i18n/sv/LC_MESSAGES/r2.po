@@ -63,7 +63,7 @@ msgstr "din e-post har uppdaterats"
 
 #: r2/controllers/api.py:607
 msgid "your email and password have been updated"
-msgstr "din e-post  och ditt lösenord har uppdaterats "
+msgstr "din e-post och ditt lösenord har uppdaterats "
 
 #: r2/controllers/api.py:610
 msgid "your password has been updated"
@@ -102,7 +102,7 @@ msgstr "för många bilder (högst %d stycken)"
 
 #: r2/controllers/api.py:1207
 msgid "Invalid image or general image error"
-msgstr ""
+msgstr "Ogiltig bild eller allmänt bildfel"
 
 #: r2/controllers/api.py:1637
 msgid "claimed! now go to someone's userpage and give them a present!"
@@ -118,15 +118,15 @@ msgstr "e-post kommer skickas till det kontos adress inom kort"
 
 #: r2/controllers/api.py:1660
 msgid "try again tomorrow"
-msgstr ""
+msgstr "försök igen imorgon"
 
 #: r2/controllers/api.py:1905 r2/controllers/api.py:2066
 msgid "invalid css class"
-msgstr ""
+msgstr "ogiltig css klass"
 
 #: r2/controllers/api.py:1908 r2/controllers/api.py:2069
 msgid "too many css classes"
-msgstr ""
+msgstr "för många css klasser"
 
 #: r2/controllers/api.py:2085
 msgid "max flair templates reached"
@@ -213,11 +213,11 @@ msgstr "det användarnamnet är upptaget"
 
 #: r2/controllers/errors.py:34
 msgid "that username is taken by a deleted account"
-msgstr ""
+msgstr "det användarnamnet används av ett borttaget konto"
 
 #: r2/controllers/errors.py:35
 msgid "you can't send to a user that you have blocked"
-msgstr ""
+msgstr "du kan inte skicka till en användare som du har blockerat"
 
 #: r2/controllers/errors.py:36
 msgid "id not specified"
@@ -229,7 +229,7 @@ msgstr "du kan inte göra det där"
 
 #: r2/controllers/errors.py:38
 msgid "you are not logged in as that user"
-msgstr ""
+msgstr "du är inte inloggad som den användaren"
 
 #: r2/controllers/errors.py:39
 msgid "the link you are commenting on has been deleted"
@@ -318,7 +318,7 @@ msgstr "du har inte tillåtelse att posta där."
 
 #: r2/controllers/errors.py:60
 msgid "you must specify a subreddit"
-msgstr ""
+msgstr "du måste specificera en subreddit"
 
 #: r2/controllers/errors.py:61
 msgid "that name isn't going to work"
@@ -327,7 +327,7 @@ msgstr "det namnet kommer inte att fungera"
 #: r2/controllers/errors.py:62
 #, python-format
 msgid "you are doing that too much. try again in %(time)s."
-msgstr ""
+msgstr "du gör det där för mycket. försök igen om %(time)s."
 
 #: r2/controllers/errors.py:63
 msgid "your session has expired"
@@ -344,11 +344,11 @@ msgstr "det valet är inte tillåtet"
 #: r2/controllers/errors.py:70
 #, python-format
 msgid "the following emails are invalid: %(emails)s"
-msgstr "följande epost: %(emails)s"
+msgstr "följande epost-adresser är ogiltiga: %(emails)s"
 
 #: r2/controllers/errors.py:71
 msgid "please enter at least one email address"
-msgstr "ange åtminstone en e-post-adress"
+msgstr "var vänlig ange åtminstone en e-post-adress"
 
 #: r2/controllers/errors.py:72
 #, python-format
@@ -364,7 +364,7 @@ msgstr ""
 
 #: r2/controllers/errors.py:74
 msgid "please provide a date of the form mm/dd/yyyy"
-msgstr "ange ett datum i formen mm/dd/åååå"
+msgstr "var vänlig ange ett datum i formen mm/dd/åååå"
 
 #: r2/controllers/errors.py:75
 msgid "the dates need to be in order and not identical"
@@ -401,27 +401,27 @@ msgstr "vi behöver något här"
 
 #: r2/controllers/errors.py:82
 msgid "we've never seen that code before"
-msgstr ""
+msgstr "Vi har aldrig sett den där koden förut"
 
 #: r2/controllers/errors.py:83
 msgid "that code has already been claimed -- perhaps by you?"
-msgstr ""
+msgstr "koden har redan tagits -- av dig, kanske?"
 
 #: r2/controllers/errors.py:84
 msgid "that reddit doesn't allow text posts"
-msgstr ""
+msgstr "den redditen tillåter inte text-inlägg"
 
 #: r2/controllers/errors.py:85
 msgid "that reddit only allows text posts"
-msgstr ""
+msgstr "den redditen tillåter bara text-inlägg"
 
 #: r2/controllers/errors.py:86
 msgid "that's a piece of history now; it's too late to reply to it"
-msgstr ""
+msgstr "det där är historia vid det här laget, det är för sent att svara till det."
 
 #: r2/controllers/errors.py:87
 msgid "invalid css name"
-msgstr ""
+msgstr "ogiltigt css namn"
 
 #: r2/controllers/errors.py:88
 msgid "too many flair css classes"
@@ -429,15 +429,15 @@ msgstr ""
 
 #: r2/controllers/errors.py:89
 msgid "invalid client id"
-msgstr ""
+msgstr "ogiltigt klient-id"
 
 #: r2/controllers/errors.py:90
 msgid "access denied by the user"
-msgstr ""
+msgstr "åtkomst nekad av användaren"
 
 #: r2/controllers/errors.py:91
 msgid "please confirm the form"
-msgstr ""
+msgstr "var snäll att bekräfta formen"
 
 #: r2/controllers/feedback.py:40
 msgid "help translate reddit into your language"
@@ -453,7 +453,7 @@ msgstr "självhjälp"
 
 #: r2/controllers/front.py:304
 msgid "no comments (yet)"
-msgstr ""
+msgstr "inga kommentarer (ännu)"
 
 #: r2/controllers/front.py:306
 #, python-format
@@ -468,12 +468,12 @@ msgstr ""
 #: r2/controllers/front.py:331
 #, python-format
 msgid "show all %d"
-msgstr ""
+msgstr "visa alla %d"
 
 #: r2/controllers/front.py:333
 #, python-format
 msgid "show %d"
-msgstr ""
+msgstr "visa %d"
 
 #: r2/controllers/front.py:349
 msgid "create a reddit"
@@ -481,7 +481,7 @@ msgstr "skapa en reddit"
 
 #: r2/controllers/front.py:351 r2/templates/createsubreddit.html:49
 msgid "create a community"
-msgstr ""
+msgstr "skapa ett gemenskap "
 
 #: r2/controllers/front.py:529 r2/lib/menus.py:142
 msgid "awards"
@@ -526,41 +526,41 @@ msgstr "välkommen tillbaka"
 
 #: r2/controllers/front.py:1042
 msgid "thanks"
-msgstr ""
+msgstr "tackar"
 
 #: r2/controllers/front.py:1075 r2/controllers/front.py:1097
 #: r2/lib/menus.py:101 r2/templates/gold.html:83
 msgid "reddit gold"
-msgstr ""
+msgstr "reddit guld"
 
 #: r2/controllers/ipn.py:228
 msgid "nice try."
-msgstr ""
+msgstr "bra försök"
 
 #: r2/controllers/ipn.py:276
 msgid "the gold has been delivered!"
-msgstr ""
+msgstr "guldet har levererats"
 
 #: r2/controllers/ipn.py:449
 msgid "thanks for buying reddit gold!"
-msgstr ""
+msgstr "tack för att du köpte reddit guld"
 
 #: r2/controllers/ipn.py:459 r2/templates/thanks.html:32
 msgid "thanks for buying creddits!"
-msgstr ""
+msgstr "tack för att du köpte kredditer"
 
 #: r2/controllers/ipn.py:460
 msgid "To spend them, visit [/gold](/gold) or your favorite person's userpage."
-msgstr ""
+msgstr "För att spendera them, besök [/gold](/gold) eller din favorit-persons profil "
 
 #: r2/controllers/ipn.py:473
 msgid "thanks for giving reddit gold!"
-msgstr ""
+msgstr "tack för att du gav bort reddit guld!"
 
 #: r2/controllers/ipn.py:474
 #, python-format
 msgid "Your gift to %s has been delivered."
-msgstr ""
+msgstr "Din gåva till %s har levererats"
 
 #: r2/controllers/listingcontroller.py:348
 msgid "newest submissions"
@@ -576,7 +576,7 @@ msgstr "mest kontroversiella länkar"
 
 #: r2/controllers/listingcontroller.py:438
 msgid "you're really bored now, eh?"
-msgstr "du har riktigt tråkigt nu, eh?"
+msgstr "du har riktigt tråkigt nu, eller hur?"
 
 #: r2/controllers/listingcontroller.py:502
 #, python-format
@@ -650,11 +650,11 @@ msgstr "kommentarer"
 
 #: r2/controllers/oauth2.py:42
 msgid "My Identity"
-msgstr ""
+msgstr "Min Identitet"
 
 #: r2/controllers/oauth2.py:43
 msgid "Access my reddit username and signup date."
-msgstr ""
+msgstr "Kom åt mitt reddit-användarnamn och registrerings-datum."
 
 #: r2/controllers/post.py:135
 msgid "over 18?"
@@ -662,11 +662,11 @@ msgstr "över 18?"
 
 #: r2/controllers/promotecontroller.py:48
 msgid "promoted by you"
-msgstr ""
+msgstr "främjat av dig"
 
 #: r2/controllers/promotecontroller.py:443
 msgid "failed to authenticate card.  sorry."
-msgstr ""
+msgstr "kunde inte autentikera kortet. förlåt"
 
 #: r2/controllers/promotecontroller.py:488
 msgid "bad image"
@@ -694,7 +694,7 @@ msgstr "fyll i din stad"
 
 #: r2/controllers/validator/validator.py:1484
 msgid "please provide your state"
-msgstr ""
+msgstr "vänligen ange din stat"
 
 #: r2/controllers/validator/validator.py:1486
 msgid "please provide your zip or post code"
@@ -706,7 +706,7 @@ msgstr "välj ett land"
 
 #: r2/controllers/validator/validator.py:1492
 msgid "Our ToS don't cover your country (yet). Sorry."
-msgstr ""
+msgstr "Våra användarvillkor täcker inte ditt land (ännu)- Förlåt."
 
 #: r2/controllers/validator/validator.py:1511
 msgid "credit card numbers should be 13 to 16 digits"
@@ -722,11 +722,11 @@ msgstr "kortverifieringskoder bör vara 3 eller 4 siffror"
 
 #: r2/lib/cssfilter.py:307
 msgid "if you need backslashes, you're doing it wrong"
-msgstr "om du behöver backslashes, så gör du fel"
+msgstr "om du behöver ett omvänt snedstreck, så gör du fel"
 
 #: r2/lib/jsontemplates.py:302 r2/templates/usertext.html:55
 msgid "[removed]"
-msgstr ""
+msgstr "[borttaget]"
 
 #: r2/lib/menus.py:46
 msgid "what's hot"
@@ -750,7 +750,7 @@ msgstr "rekommenderade"
 
 #: r2/lib/menus.py:52
 msgid "promote"
-msgstr ""
+msgstr "främja"
 
 #: r2/lib/menus.py:56
 msgid "hot"
@@ -850,7 +850,7 @@ msgstr "inställningar"
 
 #: r2/lib/menus.py:89
 msgid "blog"
-msgstr ""
+msgstr "blogg"
 
 #: r2/lib/menus.py:90 r2/templates/utils.html:424
 msgid "logout"
@@ -858,11 +858,11 @@ msgstr "logga ut"
 
 #: r2/lib/menus.py:93
 msgid "contact us"
-msgstr ""
+msgstr "kontakta oss"
 
 #: r2/lib/menus.py:94
 msgid "firefox extension"
-msgstr ""
+msgstr "firefox-tillägg"
 
 #: r2/lib/menus.py:95
 msgid "buttons"
@@ -886,7 +886,7 @@ msgstr "butik"
 
 #: r2/lib/menus.py:100
 msgid "advertise"
-msgstr ""
+msgstr "annonsera"
 
 #: r2/lib/menus.py:102
 msgid "subreddits"
@@ -957,12 +957,12 @@ msgstr "om"
 
 #: r2/lib/menus.py:127
 msgid "edit subscriptions"
-msgstr ""
+msgstr "hantera abonnemang"
 
 #: r2/lib/menus.py:128 r2/lib/pages/pages.py:1032
 #: r2/templates/createsubreddit.html:39
 msgid "community settings"
-msgstr ""
+msgstr "gemenskaps-inställningar"
 
 #: r2/lib/menus.py:129
 msgid "edit moderators"
@@ -970,11 +970,11 @@ msgstr "redigera moderatorer"
 
 #: r2/lib/menus.py:130
 msgid "moderator mail"
-msgstr "moderator mail"
+msgstr "moderator post"
 
 #: r2/lib/menus.py:131
 msgid "edit approved submitters"
-msgstr ""
+msgstr "hantera godkända inlämnare"
 
 #: r2/lib/menus.py:132 r2/lib/menus.py:133 r2/lib/pages/pages.py:2755
 msgid "ban users"
@@ -999,31 +999,31 @@ msgstr "mina reddit:ar"
 
 #: r2/lib/menus.py:141 r2/templates/subredditstylesheet.html:87
 msgid "errors"
-msgstr ""
+msgstr "fel"
 
 #: r2/lib/menus.py:143
 msgid "ads"
-msgstr ""
+msgstr "annonser"
 
 #: r2/lib/menus.py:144
 msgid "usage"
-msgstr ""
+msgstr "användning"
 
 #: r2/lib/menus.py:145
 msgid "promoted"
-msgstr ""
+msgstr "främjade"
 
 #: r2/lib/menus.py:146
 msgid "reporters"
-msgstr ""
+msgstr "anmälare"
 
 #: r2/lib/menus.py:147
 msgid "reported links"
-msgstr ""
+msgstr "anmälda länkar"
 
 #: r2/lib/menus.py:148
 msgid "reported authors"
-msgstr ""
+msgstr "anmälda författare"
 
 #: r2/lib/menus.py:149
 msgid "info"
@@ -1068,11 +1068,11 @@ msgstr ""
 
 #: r2/lib/menus.py:162
 msgid "my promoted links"
-msgstr ""
+msgstr "mina främjade länkar"
 
 #: r2/lib/menus.py:163
 msgid "all promoted links"
-msgstr ""
+msgstr "alla främjade länkar"
 
 #: r2/lib/menus.py:164
 msgid "unseen"
@@ -1096,11 +1096,11 @@ msgstr ""
 
 #: r2/lib/menus.py:169
 msgid "pending"
-msgstr ""
+msgstr "väntar"
 
 #: r2/lib/menus.py:170
 msgid "rejected"
-msgstr ""
+msgstr "nekad"
 
 #: r2/lib/menus.py:172
 msgid "whitelist"
